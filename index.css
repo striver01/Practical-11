@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  padding: 25px;
+  color: rgb(44, 43, 43);
+}
+.container {
+  background-color: black;
+  width: 100%;
+}
+Footer1 {
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.about {
+  width: 40%;
+}
+h2 {
+  color: grey;
+  transform: uppercase;
+}
+.about p {
+  color: rgb(61, 60, 60);
+  text-align: justify;
+  padding: 20px 0px;
+  line-height: 25px;
+}
+.container ul {
+  padding: 20px 0px;
+}
+.container li {
+  line-height: 30px;
+  list-style: none;
+}
+.container li a {
+  text-decoration: none;
+  color: rgb(61, 60, 60);
+}
+.container li a:hover {
+  color: orange;
+}
+Footer2 {
+  padding: 50px;
+}
+Footer2 h2 {
+  text-align: center;
+  border-top: 2px solid rgb(61, 60, 60);
+  border-bottom: 2px solid rgb(61, 60, 60);
+  padding: 45px;
+}
+Footer2 h2 a {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+Footer2 h2 a:hover {
+  background-color: orange;
+}
+Icons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+Icons a {
+  text-decoration: none;
+  border-radius: 100%;
+  padding: 20px;
+  background-color: grey;
+  margin: 20px;
+  font-size: 20px;
+}
+Icons a:hover {
+  background-color: orange;
+}
+Icons a i {
+  color: white;
+  font-size: 40px;
+}
