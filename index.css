@@ -19,6 +19,7 @@ Footer1 {
   padding: 30px 20px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .about {
   width: 40%;
@@ -85,4 +86,32 @@ Icons a:hover {
 Icons a i {
   color: white;
   font-size: 40px;
+}
+@media screen and (max-width: 800px) {
+  Footer1 {
+    justify-content: space-between;
+  }
+  .about {
+    width: 100%;
+  }
+  .categories {
+    width: 30%;
+  }
+  .links {
+    width: 30%;
+  }
+  .contact {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .categories {
+    width: 100%;
+  }
+  .links {
+    width: 100%;
+  }
+  .contact {
+    width: 100%;
+  }
 }
